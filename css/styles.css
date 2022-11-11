@@ -35,12 +35,12 @@ font-size: 7rem;
 }
 h2 {
     font-size: 4rem;
-    }
-    h3 {
-        font-size: 3rem;
-        }
+}
+h3 {
+    font-size: 3rem;
+}
 
-        @media screen and (min-width: 1024px) {
+ @media screen and (min-width: 1024px) {
             body{
                 font-size: 1.8rem;
             }
@@ -53,13 +53,14 @@ h2 {
             h3{
                 font-size: 2.4rem;
             }
-        }
+}
+
 
 /* Links */
 
-        a {
-            text-decoration: none;
-        }
+a {
+text-decoration: none;
+}
 
 .link-arrow {
     color: var(--color-accent);
@@ -67,7 +68,7 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
 }
-.link-arrow::after{
+.link-arrow::after {
     content: '-->';
     margin-left: 5px;
     transition: margin 0.15s;
@@ -80,6 +81,7 @@ h2 {
         font-size: 1.5rem;
     }
 }
+
 
 /* Badges */
 
@@ -113,6 +115,7 @@ h2 {
     }
 }
 
+
 /* Lists */
 
 .list {
@@ -140,6 +143,7 @@ margin: 2rem;
     }
 }
 
+
 /* Icons */
 
 .icon {
@@ -158,6 +162,7 @@ display: inline-flex;
 justify-content: center;
 align-items: center;
 }
+
 
 /* Buttons */
 
@@ -195,7 +200,8 @@ background: #3a8ffd
     color: #fff;
 }
 .btn--accent:hover {
-    background: #ec3000}
+    background: #ec3000;
+}
 
 .btn--block {
     width: 100%;
@@ -218,6 +224,7 @@ background: #3a8ffd
     }
 }
 
+
 /* Input */
 .input {
     border-radius: var(--border-radius);
@@ -227,16 +234,17 @@ background: #3a8ffd
     outline: 0;
     padding: 1.5rem 3.5rem;
 }
-::placeholder{
-    color: #cbcdd7;}
 
+::placeholder{
+    color: #cbcdd7;
+}
 
     .input-group {
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
     display: flex;
 }
-.input-group .input{
+.input-group .input {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem, 1rem;
@@ -252,6 +260,7 @@ background: #3a8ffd
     }
 }
 
+
 /* Cards */
 
 .card {
@@ -259,6 +268,7 @@ background: #3a8ffd
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
 }
+
 .card__header, 
 .card__body {
     padding: 2rem 3rem;
@@ -279,6 +289,7 @@ background: #3a8ffd
 
 }
 
+
 /* Plans */
 
 .plan__name {
@@ -287,6 +298,7 @@ background: #3a8ffd
     font-weight: 500;
     font-size: 2.4rem;
 }
+
 .plan__price {
 font-size: 6rem;
 }
